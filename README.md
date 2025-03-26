@@ -158,10 +158,10 @@ c.	Perform initial data profiling in AWS Glue Data Brew: Use AWS Glue Data Brew 
 
 Figure 3
 
-![image](https://github.com/user-attachments/assets/60f11229-1fbf-41ba-9951-87b0bd86b06c)
-
 Data Profiling
  
+![image](https://github.com/user-attachments/assets/60f11229-1fbf-41ba-9951-87b0bd86b06c)
+
 Note. This screenshot shows the profiling result of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
 d.	Do the cleaning after profiling to make sure data is ready to use: The dataset does not contain a lot of problems, I only changed the title of columns to make them look clearer. And I changed the format of data planted to yyyy-mm-dd, also to make sure it looks clearer.
