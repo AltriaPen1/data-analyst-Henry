@@ -286,11 +286,6 @@ Note. This is the screenshot of Business questions and data questions in Week 6 
 
 Make the conclusions visual so that people who watch our project can more easily understand what we want to express.
 
-
-
-
-
-
 Figure 9
 
 Visualizations of Business Questions 
@@ -336,6 +331,7 @@ Deliverables:
 •	Insights shared with our stakeholders.
 This project provides us with a method to discover business questions from the dataset and to convert them into data questions that can be analyzed using data. We can use tools such as SQL and Excel to analyze the data and draw conclusions. Ultimately, these conclusions will help us predict future trends and determine strategies. This is a very important technique.
 
+![image](https://github.com/user-attachments/assets/7e7dee26-abc8-4451-aae3-05f00b247a1f)
 
 Data Wrangling 
 
@@ -436,6 +432,8 @@ Deliverables:
 •	Make sure the output of dataset is successfully and safely transferred to correct place to future analyzing.
 
 This data wrangling project aims to establish a high-quality dataset that enables the City of Vancouver to conduct effective customer analytics, ultimately enhancing marketing strategies, improving customer service, and driving overall business growth.
+
+![image](https://github.com/user-attachments/assets/062700bf-39d3-49fa-bf45-d5479352a794)
 
 Data Quality Control 
 
