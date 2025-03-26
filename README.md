@@ -2,7 +2,7 @@ Table of Contents
 
 Exploratory Data Analysis	
 
-Project Part 1	3
+Project Part 1
 
 Project Description	3
 
