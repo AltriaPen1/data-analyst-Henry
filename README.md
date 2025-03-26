@@ -101,7 +101,9 @@ Dataset: Downloaded from City of Vancouver Data Portal, Filtered “Acutissima�
 Figure 1
 
 Raw Dataset Download Filter
- 
+
+ ![image](https://github.com/user-attachments/assets/7c07227c-979c-403f-9bd3-ec1f2fd2f8e3)
+
 Note. This screenshot is to show the filter of dataset on COV data portal. Source: City of Vancouver Data Portal.
 
 •	TREE_ID: ID for trees
@@ -147,21 +149,28 @@ b.	Upload it to the correct folder in raw data bucket: I create a raw bucket, al
 Figure 2
 
 Upload data to Raw Bucket
- 
+
+ ![image](https://github.com/user-attachments/assets/93d925d7-f3fb-4bcf-89e5-90e7f0e6c6d9)
+
 Note. This screenshot shows the raw dataset stored in the raw bucket. Source: AWS S3
 
 c.	Perform initial data profiling in AWS Glue Data Brew: Use AWS Glue Data Brew to run the data profiling.
 
 Figure 3
 
+![image](https://github.com/user-attachments/assets/60f11229-1fbf-41ba-9951-87b0bd86b06c)
+
 Data Profiling
  
 Note. This screenshot shows the profiling result of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
 d.	Do the cleaning after profiling to make sure data is ready to use: The dataset does not contain a lot of problems, I only changed the title of columns to make them look clearer. And I changed the format of data planted to yyyy-mm-dd, also to make sure it looks clearer.
+
 Figure 4
 
 Data Cleaning
+
+![image](https://github.com/user-attachments/assets/7bb8c75c-9362-4118-8bb7-b413cf13872f)
  
 Note. This screenshot shows the cleaning step of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
@@ -170,15 +179,20 @@ Note. This screenshot shows the cleaning step of raw dataset in Data Brew. Sourc
 o	Business question 1: To see what’s the average diameter for first 20 rows.
 
 o	Business question 2: To see if there’s a relationship between height range and diameter, by analyzing the average diameter grouped by different height range for first 20 rows.
+
 Figure 5
 
 Athena Business Question 1
- 
+
+![image](https://github.com/user-attachments/assets/a5ce5a4c-487f-4daf-a1b5-64ac38ca091c)
+
 Note. This screenshot shows the first business question of project part 2 in AWS Athena. Source: AWS Athena.
 
 Figure 6
 
 Athena Business Question 2
+
+![image](https://github.com/user-attachments/assets/3dc97362-5a2d-4df0-8eee-cf1b80b877b0)
  
 Note. This screenshot shows the second business question of project part 2 in AWS Athena. Source: AWS Athena.
 
@@ -258,7 +272,9 @@ March for 2023 and 2024, containing the following key features:
 Figure 7
 
 Sales-SSOT 
- 
+
+![image](https://github.com/user-attachments/assets/fb492d68-ffdc-4bbf-be6c-102fd561e03e)
+
 Note. This screenshot shows the table of dataset for Sales_SSOT in Week 6 class activity. Source: UCW
 
 Methodology:
