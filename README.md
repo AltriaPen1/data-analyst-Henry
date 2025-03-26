@@ -295,7 +295,8 @@ Figure 8
 
 Business Question to Data Question
 
- 
+ ![image](https://github.com/user-attachments/assets/746b24ac-f10c-4356-b254-1c8f3ff88c12)
+
 Note. This is the screenshot of Business questions and data questions in Week 6 class activity. Source: UCW
 
 4-	Data Visualization:
@@ -306,6 +307,12 @@ Figure 9
 
 Visualizations of Business Questions 
        
+![image](https://github.com/user-attachments/assets/bf58aac9-d22e-4027-b204-92a6b7ed9efa)
+![image](https://github.com/user-attachments/assets/3829d843-69d3-4b2d-9609-b5424ec2902d)
+![image](https://github.com/user-attachments/assets/e84b10d3-8a00-4a8c-847f-3bed1d76f792)
+![image](https://github.com/user-attachments/assets/9eec6811-b197-4ddb-84de-5377a1b94102)
+![image](https://github.com/user-attachments/assets/4339679d-0616-4ca9-8198-59f7768bb1ae)
+
 Note. This screenshot shows the visualizations of different business questions in excel of Week 6 Class Activity.
 
 5-	Insights and Findings:
@@ -401,36 +408,44 @@ Methodology:
 
 2-	Data Cleaning: In this step, I will set some conditions, such as completeness and uniqueness, to ensure the quality of my data. And the “passed” part is prepared for further analysis.
 
-Figure 9
+Figure 10
 
 Data Quality Check Rules
  
+![image](https://github.com/user-attachments/assets/e58e80a1-6175-4684-a0f5-94563d82d44c)
+
 Note. This figure shows the screenshot of the data quality check step in visual ETL created in Glue. Source: AWS Glue
 
 In this step, I checked the completeness and uniqueness for “treeid” column. To see if the completeness is equal or greater than 95% and if Uniqueness is greater than 99%. 
 
-Figure 10
+Figure 11
 
 Conditional Router
- 
+
+![image](https://github.com/user-attachments/assets/4c322f84-2c9e-46ff-a374-96981fb2cabf) 
+
 Note. This figure shows the screenshot of the conditional router step in visual ETL created in Glue. Source: AWS Glue
 
 This step is to separate the quality check output as two files: passed and failed into two different prepared folders.
 
-Figure 11
+Figure 12
 
 Change Schema Before Load
- 
+
+![image](https://github.com/user-attachments/assets/2da7e8db-beb4-4811-8598-da888a8fbcf3)
+
 Note. This figure shows the screenshot of the change schema step in visual ETL created in Glue. Source: AWS Glue
 
 The meaning of this step is to drop the useless columns which are for data quality checking for both passed and failed output files. So, it reduces our costs and make the output file looks cleaner.
 
 3-	Data Transformation and Consolidation I make sure my data is exported to a reasonable size for further analysis.
 
-Figure 12
-
-Load Both Passed and Failed into Corresponding Folders
+Figure 13
  
+Load Both Passed and Failed into Corresponding Folders
+
+![image](https://github.com/user-attachments/assets/300ac418-1d9f-46e2-a797-49236fe88edb)
+
 Note. This figure shows the screenshot of the Load Failed/Load Passed step in visual ETL created in Glue. Source: AWS Glue
 
 These two steps are the last step before running the visual ETL. We select the output file format as csv and choose the specified location to output.
@@ -474,58 +489,72 @@ Methodology:
 
 1.	Data Profiling: This step is to prepare the profile for dataset for later cleaning. We profile our dataset in AWS Glue Data Brew. 
 
-Figure 13
+Figure 14
 
 Data Profiling
  
+![image](https://github.com/user-attachments/assets/ea3cd320-3233-4098-aefc-8bb1b5193834)
+
 Note. This screenshot shows the profiling result of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
 2.	Data Cleaning: This step is to clean the data before analyzing. I changed the name of the column to clearer format and change the data planted to yyyy-mm-dd format. Also I removed useless part in my dataset during Visual ETL Design, also filter the rows to meet the requirements of data team.
 
-Figure 14
+Figure 15
 
 Data Cleaning
  
+![image](https://github.com/user-attachments/assets/e5d67745-c7ad-4451-85bb-9a694a028122)
+
 Note. This screenshot shows the cleaning step of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
 Remove Useless Part in Dataset: In this step, our goal is to remove columns that are not related to our metrics and add filters to obtain the data we need. This makes our dataset look neater and more straightforward.
 
-Figure 15
+Figure 16
 
 Change Schema of Summarization 1
  
+![image](https://github.com/user-attachments/assets/53dd39b5-eed4-47c6-a497-5204e9a84b3b)
+
 Note. This screenshot shows the change schema step in AWS Glue Visual ETL.  Source: AWS Glue
 
 I use “Change Schema” to drop some useless columns which I don’t want it to appear in my summarization. And I change the data type of date planted to timetable format. Finally, I only keep 5 columns here.
 
-Figure 16
+Figure 17
 
 Filter of Summarization 1
  
+![image](https://github.com/user-attachments/assets/d795d7a4-6451-4f6d-9d39-8fde9ffda99a)
+
 Note. This screenshot shows the filter step in AWS Glue Visual ETL.  Source: AWS Glue
 
 I use filter to filter my rows and keep those the diameter is equal or greater than 10. Now I only have 200 rows cut from 500 rows.
 
 3.	Validation Rules and Procedures: This step is to ensure that our output data is stored in a safe and appropriate location after analysis. In this case, I set up two folders, user and system, to store two different storage locations that meet customer and system requirements. I set the target location for both the user and system for loading the output.
 
-Figure 17
+Figure 18
 
 Set Target Location
  
+![image](https://github.com/user-attachments/assets/772651a2-9b9c-44e3-b296-bca98a278ab8)
+
 Note. This screenshot shows the Load step in AWS Glue Visual ETL.  Source: AWS Glue
 
-Figure 18
+Figure 19
 
 User Output of Summarization 1
  
+![image](https://github.com/user-attachments/assets/4bfbc2dd-d524-4976-9ab3-a576b12aa651)
+
 Note. This screenshot shows the user output of summarization 1 in AWS S3.  Source: AWS S3.
 
 Here’s the output after summarization. It is stored as a user-friendly format in the user-folder .
 
-Figure 19
+Figure 20
 
 System Output of Summarization 1
  
+![image](https://github.com/user-attachments/assets/477208be-c12c-400e-a148-ecf0caffe3dd)
+
 Note. This screenshot shows the system output of summarization 1 in AWS S3.  Source: AWS S3
 
 Here’s the output of summarization 1. It is stored as a system-friendly format in the system folder.
@@ -534,9 +563,11 @@ Here’s the output of summarization 1. It is stored as a system-friendly format
 
 Cleaning: Week 3 Class Activity 
 
-Figure 20
+Figure 21
 
 Poor Quality Dataset 
+
+![image](https://github.com/user-attachments/assets/b3ab8985-be35-43bd-ab79-c258219cbf97)
 
 Note. This screenshot shows the poor-quality dataset activity in week 3. Source: By UCW
 
@@ -544,9 +575,11 @@ This is the class activity we did in week 3. We can find many problems in this p
 
 Profiling: Week 3&4 Activity
 
-Figure 21
+Figure 22
 
 Week 3 Activity Screenshot  
+
+![image](https://github.com/user-attachments/assets/fd9f5e30-cdb4-4b15-99a7-4a2011245909)
 
 Note. This is the screenshot of profiling week 3 activity.
 
@@ -578,6 +611,10 @@ Timeline:
 
 This Data Quality Control initiative aims to empower City of Vancouver to enhance its data integrity and reliability, resulting in improved decision-making, operational efficiency, and compliance with regulatory requirements.
 
+![image](https://github.com/user-attachments/assets/ed24e750-8661-44b9-b905-042624946fdc)
+
 Course Completion Badge
 
 Share your course completion badge in your portfolio. You can claim it using a module named “Badges and completion certificates” in your AWS Academy CF course. 
+
+![image](https://github.com/user-attachments/assets/dc12dd6a-99be-474a-8173-cfc6be83093d)
