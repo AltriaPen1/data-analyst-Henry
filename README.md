@@ -1,7 +1,11 @@
 Exploratory Data Analysis	3
+
 Project Part 1	3
+
 Project Description	3
+
 Project Title	3
+
 Objective:	3
 Dataset:	3
 Methodology:	4
