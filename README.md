@@ -1,9 +1,7 @@
-Exploratory Data Analysis	3
+Exploratory Data Analysis	
 
 Project Part 1	3
-
 Project Description	3
-
 Project Title	3
 
 Objective:	3
