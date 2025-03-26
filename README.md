@@ -1,52 +1,86 @@
+Table of Contents
+
 Exploratory Data Analysis	
 
 Project Part 1	3
+
 Project Description	3
+
 Project Title	3
 
 Objective:	3
+
 Dataset:	3
+
 Methodology:	4
+
 Tools and Technologies:	8
+
 Deliverables:	9
+
 Descriptive Analysis	9
+
 Week 6 Class Activity	9
+
 Project Description:	9
+
 Project Title:	9
+
 Objective:	10
+
 Dataset:	10
+
 Methodology:	11
+
 Tools and Technologies:	15
+
 Deliverables:	15
+
 Data Wrangling	16
+
 Project Part 1	16
+
 Project Description: Data Wrangling for Relations within Public-Trees	16
+
 Project Title:	16
+
 Objective:	16
+
 Background:	16
+
 Dataset:	16
+
 Methodology:	17
+
 Tools and Technologies:	20
+
 Deliverables:	20
+
 Data Quality Control	21
+
 Project Description: Data Quality Control Initiative for City of Vancouver	21
+
 Project Title:	21
+
 Objective:	21
+
 Background:	21
+
 Scope:	21
+
 Methodology:	22
+
 Cleaning: Week 3 Class Activity	27
+
 Profiling: Week 3&4 Activity	28
+
 Tools and Technologies:	30
+
 Deliverables:	30
+
 Timeline:	30
+
 Course Completion Badge	30
-
-
-
-
-
-
 
 
 
