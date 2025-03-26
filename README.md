@@ -175,7 +175,7 @@ Data Cleaning
 Note. This screenshot shows the cleaning step of raw dataset in Data Brew. Source: AWS Glue Data Brew.
 
 2.	Descriptive Statistics: Project Part 2 Athena Business Question 1 and 2
-3.	
+
 o	Business question 1: To see what’s the average diameter for first 20 rows.
 
 o	Business question 2: To see if there’s a relationship between height range and diameter, by analyzing the average diameter grouped by different height range for first 20 rows.
